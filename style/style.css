@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+body {
+	font-family: Tahoma;
+	color: white;
+	background: #282828;
+}
+
+.wrapper {
+	display: block;
+	width: 100%;
+	max-width:900px;
+	margin: 0 auto;
+	background-image: url('../image/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 70px 25px; 
+}
+
+.hero {
+	display: inline-block;
+	height: 152px; 
+	width: 265px;
+	background: url('../image/palm.png') 100% 100% no-repeat,
+	url('../image/logo.png') 50% 78% no-repeat;
+	margin-left: 15px;
+
+}
+
+.hero p {
+	text-align: center;
+	margin-top: 130px;
+}
+
+.contact {
+	width: 200px;
+	display: inline-block;
+	float: right;
+	margin-top: 90px;
+}
+
+.countries p {
+	width: 260px;
+	text-align: center;
+	display: inline-block;
+	margin: 1px 18px 50px; 
+
+}
+
+.countries img {
+	width: 260px;
+	margin: 13px 18px 1px; 
+}
+
+.footer {
+	text-align: center;
+	margin-top: 140px;
+}
+
